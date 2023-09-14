@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Dojonary</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <input class="search-bar"  type="search" placeholder="Search">
+            <button type="button" class="btn" onclick="changestring(this)">Login</button>
+        </nav>
+        <div class="container">
+            <div class="section">
+                <div class="subContent">
+                    <div class="contenthead">
+                        <p class="content-title">ninja</p>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="add_like(1)" class="btn-like" type="submit"><span id="like1">13</span> Likes</button>
+                    </div>
+                    <div class="description">
+                        <p>A practitioner skilled in the <a href="#">Japonese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="subContent">
+                    <div class="contenthead">
+                        <p>ninja</p>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="add_like(2)" class="btn-like" type="submit"><span id="like2">37</span> Likes</button>
+                    </div>
+                    <div class="description">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subSection">
+                <h2>Dojonary is defined by <span class="you">YOU</span></h2>
+                <button onclick="remove_btn(this)" class="btn-add" type="submit"><span>Add Definition</span></button>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

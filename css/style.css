@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav, .container{
+    margin-left: 340px;
+    margin-right: 352px;
+}
+.nav {
+    background-color: #cccccc;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    margin-left: 20px;
+    font-size: 45px;
+}
+.search-bar{
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+}
+.container{
+    display: flex  ;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.section{
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.subContent{
+    display: flex;
+    justify-content: flex-start;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+.subSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border: 3px solid black;
+    height: 160px;
+    align-items: center;
+}
+h2 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.you{
+    font-family: sans-serif;
+}
+.contenthead{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenthead p{
+    padding: 10px;
+}
+.contenthead p:first-child{
+    font-size: 44px;
+}
+.btn-like{
+    background-color: #ffd966;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #2b78e4;
+    margin-right: 30px;
+}
+.btn, .btn-like, .btn-add{
+    height: 35px;
+    width: 100px;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    box-shadow: 4px 7px black;
+
+}
+.btn-add{
+    height: 40px;
+    width: 150px;
+    background-color: #93c47d;
+}
+.description{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-size: 20px;
+}
